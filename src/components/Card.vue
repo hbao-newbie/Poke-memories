@@ -23,10 +23,16 @@
                 ></div>
             </div>
             <div class="card__face card__face--back">
-                <div 
+                <!-- <div 
                     class="card__content"
                     :style="{ backgroundImage: `url('/src/assets/${imgBackFaceUrl}')` }"
-                ></div>
+                ></div> -->
+                <div
+                    class="card__content"
+                    :style="{ backgroundImage: `url(${require('@/assets' + imgBackFaceUrl)})`}"
+                >
+
+                </div>
             </div>
         </div>
     </div>    
