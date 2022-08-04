@@ -25,7 +25,7 @@
             <div class="card__face card__face--back">
                 <div 
                     class="card__content"
-                    :style="{backgroundImage: `url('/src/assets/${imgBackFaceUrl}')`}"
+                    :style="`url('/src/assets/${imgBackFaceUrl}')`"
                 ></div>
             </div>
         </div>
