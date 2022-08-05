@@ -29,7 +29,7 @@
                 ></div>
                 <!-- <div
                     class="card__content"
-                    :style="{ backgroundImage: `url(${require('@/assets/' + imgBackFaceUrl)})`}"
+                    :style="{ backgroundImage: `url(${import('@/assets/' + imgBackFaceUrl)})`}"
                 >
                 </div> -->
             </div>
